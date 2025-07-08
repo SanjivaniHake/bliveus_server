@@ -12,7 +12,7 @@ async function bootstrap() {
   app.use(cookieParser());
 
   app.enableCors({
-    origin: 'http:// 13.234.112.238:5173',
+    origin: 'http://13.234.112.238:5173',
     credentials: true,
   });
 
